@@ -2,3 +2,5 @@
 
 # CVRMods
 QoL mods for ChilloutVR
+
+[![Github All Releases](https://img.shields.io/github/downloads/koiseka/CVRMods/total.svg)]()
