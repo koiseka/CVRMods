@@ -13,18 +13,8 @@ namespace WorldDownloadPercentage
 
         public override void OnApplicationStart()
         {
-            //MelonCoroutines.Start(Initialize());
             Log.Msg("Initializing!");
             Patches.Patch(HarmonyInstance);
         }
-
-        private IEnumerator Initialize()
-        {
-            while (ReferenceEquals(CVRDownloadManager.Instance, null))
-                yield return null;
-
-            Log.Msg("Initializing!");
-        }
-
     }
 }
