@@ -1,9 +1,7 @@
 ﻿using System;
 
 //
-using ABI_RC.Core.IO;
 using MelonLoader;
-using System.Collections;
 
 namespace WorldDownloadPercentage
 {
